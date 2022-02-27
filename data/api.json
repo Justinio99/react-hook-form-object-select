@@ -1,0 +1,68 @@
+{
+    "codes": [
+        {
+            "group": "executionRegime",
+            "number": "1",
+            "text": {
+                "de": "Geschlossener Vollzug",
+                "fr": "Geschlossener Vollzug",
+                "en": "Geschlossener Vollzug"
+            },
+            "id": "executionRegime-1"
+        },
+        {
+            "group": "executionRegime",
+            "number": "2",
+            "text": {
+                "de": "Offener Vollzug",
+                "fr": "Offener Vollzug",
+                "en": "Offener Vollzug"
+            },
+            "id": "executionRegime-2"
+        },
+        {
+            "group": "questionType",
+            "number": "1",
+            "text": {
+                "de": "Dropdown",
+                "fr": "Dropdown",
+                "it": "Dropdown"
+            },
+            "id": "questionType-1"
+        },
+        {
+            "group": "questionType",
+            "number": "2",
+            "text": {
+                "de": "Ja/Nein",
+                "fr": "Ja/Nein",
+                "it": "Ja/Nein"
+            },
+            "id": "questionType-2"
+        }
+    ],
+    "testForm": 
+        {
+            "executionRegime": {
+                "group": "executionRegime",
+                "number": "1",
+                "text": {
+                    "de": "Geschlossener Vollzug",
+                    "fr": "Geschlossener Vollzug",
+                    "en": "Geschlossener Vollzug"
+                },
+                "id": "executionRegime-1"
+            },
+            "questionType": {
+                "group": "questionType",
+                "number": "1",
+                "text": {
+                    "de": "Dropdown",
+                    "fr": "Dropdown",
+                    "it": "Dropdown"
+                },
+                "id": "questionType-1"
+            }
+        }
+    
+}

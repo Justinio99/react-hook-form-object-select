@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a example how to create a object select component using @react/mui & react-hook-form
 
 ## Available Scripts
 
@@ -13,6 +13,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm run server`
+
+Runs the local api client.\
+Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
+
 
 ### `npm test`
 
