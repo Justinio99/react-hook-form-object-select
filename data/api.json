@@ -45,13 +45,13 @@
         {
             "executionRegime": {
                 "group": "executionRegime",
-                "number": "1",
+                "number": "2",
                 "text": {
-                    "de": "Geschlossener Vollzug",
-                    "fr": "Geschlossener Vollzug",
-                    "en": "Geschlossener Vollzug"
+                    "de": "Offener Vollzug",
+                    "fr": "Offener Vollzug",
+                    "en": "Offener Vollzug"
                 },
-                "id": "executionRegime-1"
+                "id": "executionRegime-2"
             },
             "questionType": {
                 "group": "questionType",

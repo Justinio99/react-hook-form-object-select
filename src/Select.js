@@ -7,10 +7,11 @@ import PropTypes from 'prop-types';
 const SelectComponent = (props) => {
 
     const { label, name, defaultValue, options, language, menuTitle, disabled} = props;
-    const methods = useFormContext();
+    const methods = useFormContext()
 
     return (
     <FormControl
+
     className={`select-${name}`}
     fullWidth
     focused={false}
@@ -26,13 +27,12 @@ const SelectComponent = (props) => {
         labelId={`select-${name}`}
         label={label}
         disabled={disabled}
-        value={field?.value?.id}
+        value={field.value.id ? field.value.id : ""}
         onChange={(event) => {
           const selected = options.find((el) => el.id === event.target.value);
           field.onChange(selected);
         }}
         >
-               {console.log("🚀 ~ file: Select.js ~ line 24 ~ SelectComponent ~ field", field)}
                 {options.map((code, key) => (
                   <MenuItem key={key} value={code.id}>
                     {isUndefined(menuTitle) ? code.text[language] : code[menuTitle]}
